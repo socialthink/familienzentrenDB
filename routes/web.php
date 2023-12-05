@@ -17,7 +17,7 @@ use App\Http\Controllers\MailController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('fzverzeichnis.ersterfassung');
 });
 
 Route::get('/send-email', [MailController::class, 'sendUpdateEmail']);
